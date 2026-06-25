@@ -12,13 +12,16 @@ html, body {
     text-align: center;
     font-family: 'Sansation', sans-serif;
     font-size: 48px;
-    padding-top: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 !important;
 }
 
 .logoGal{
     width: 53px;
     height: 29px;
-    margin-right: 40px;
 }
 
 .linijaGal{
@@ -159,6 +162,10 @@ footer {
     filter: brightness(100%) blur(0); 
 }
 
+.foralign {
+    display: none;
+}
+
 @media (max-width: 768px) {
 
     .logoGal{
@@ -166,8 +173,11 @@ footer {
     }
 
     .pavGal{
-        font-size: 36px;
-        margin-left: 270px;
+        font-size: 32px;
+        position: static;
+        transform: none;
+        margin-left: auto !important;
+        text-align: right;
     }
 
     .imgGal{

@@ -6,7 +6,7 @@ function Footer({ toggleDarbai }) {
   return (
     <div className="apacia">
       <div className="row d-flex justify-content-center w-100">
-        <div className="col-12 col-md-4 text-center skiltis borderXwidth">
+        <div className="col-12 col-md-4 text-center skiltis borderXwidth d-none d-md-block">
           <Link to="/apie" className="navLink">apie</Link>
         </div>
         <div className="logoContainer col-12 col-md-4 text-center">
