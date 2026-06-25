@@ -1,0 +1,301 @@
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/Sansation-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+.main {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+
+  html, body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    height: 100%;
+}
+
+.main{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+.kazkas .row{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.kazkas{
+    height: 100%;
+    padding: 0;
+}
+
+.virsus{
+    width: 70%;
+    height: 20%;
+    flex: 0 0 20%;
+    display:flex;
+}
+
+.linijaApie {
+    width: 70%;
+    height: 1px;
+    background-color: #ACACAC;
+    margin-top: 145px;
+    position: absolute;
+  }
+
+.fotoContainer{
+    width: 450px;
+    height: 100%;
+    position: relative;
+}
+
+.foto{
+    width: 390px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headeris .row{
+    padding: 0;
+    margin: 0;
+}
+
+.headeris {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head {
+
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 70%;
+}
+
+.atgal{
+    padding-left: 40px;
+}
+
+.pav {
+    color: #ACACAC;
+    text-align: center;
+    font-family: 'Sansation', sans-serif;
+    font-size: 48px; 
+    padding: 0;
+    margin-right: 20px;
+    margin-top: 25px;
+    flex: 1; 
+    text-align: right;
+}
+
+.kontaktai{
+    margin-top: 180px;
+    position: absolute;
+    margin-left: 20px;
+    padding-left: 40px;
+    font-family: 'Jura', sans-serif;
+    font-size: 18px;
+    color: #717171;
+}
+
+.socialm{
+    color: #717171;
+}
+
+.socialm:hover{
+    color: #ACACAC;
+}
+
+.facebmobile, .instamobile, .gmailmobile {
+    display: none;
+}
+
+.apr{
+    color: #ACACAC;
+    margin-top: 120px;
+    font-size: 20px;
+    bottom: 62.5% !important;
+}
+
+.laba{
+    position: absolute;
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    width: 620px;
+    text-align: right;
+}
+
+.laba div{
+    text-align: center;
+    width: 100px;
+    margin-left: 520px;
+}
+
+.par{
+    background: linear-gradient(to right,#ACACAC 50%, #EBEBEB 100%);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1s ease-in-out ;
+    font-size:32px;
+
+    animation: textanimation reverse infinite 2s;
+    
+}
+
+.par:hover {
+    transform: scale(1.07,1.07);
+    transition: 1s cubic-bezier(0, 0.21, 0.18, 0.9);
+  }
+
+@keyframes textanimation {
+    to {
+      background-position: 200% center;
+    }
+}
+
+.aprMob{
+    display:none; 
+}
+
+
+/*mobili versija*/
+@media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .virsus{
+        width: 100%;
+        height: 15%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .linijaApie {
+        width: 100%;
+        margin-top: 110px;
+    }
+
+    .fotoContainer{
+        height: 400px;
+        text-align: right;
+        margin-left: 45px;
+        margin-bottom: 130px;
+    }
+    
+    .foto{
+        width: 195px;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .headeris {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .head{
+        padding: 0;
+        margin: 0;
+    }
+
+    .atgal {
+        padding-left: 15px;
+    }
+
+    .pav {
+        font-size: 36px; 
+        margin-right: 0;
+    }
+
+    .kontaktai{
+        margin-top: 990px;
+        position: absolute;
+        margin-left: 0px;
+        padding-right: 10px;
+        font-size: 14px;
+        text-align: right;
+    }
+
+    .facebmobile{
+        display: block;
+    }
+    
+    .instamobile, .gmailmobile {
+        display: block;
+    }
+
+    .facebdesk, .instadesk, .gmaildesk{
+        display: none;
+    }
+    
+    .apr{
+        display: none;
+    }
+
+    .aprMob{
+        color: #ACACAC;
+        font-size: 16px;
+        display: block;
+        text-align: left;
+        margin-left: 30px;
+    }
+    
+    .labaMob{
+        position: absolute;
+        text-align: center;
+        font-family: 'Jura', sans-serif;
+        width: 620px;
+        text-align: left;
+        margin-top: 480px;
+    }
+    
+    .labaMob div{
+        text-align: center;
+        width: 100px;
+
+    }
+    
+    .parMob{
+        background: linear-gradient(to right,#ACACAC 50%, #EBEBEB 100%);
+        background-size: 200% auto;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: 1s ease-in-out ;
+        font-size:24px;
+        margin-right:20px;
+
+        animation: textanimationMob reverse infinite 2s;
+    }
+    
+    .parMob:hover {
+        transform: scale(1.07,1.07);
+        transition: 1s cubic-bezier(0, 0.21, 0.18, 0.9);
+      }
+
+      @keyframes textanimationMob {
+        to {
+          background-position: 200% center;
+        }
+    }
+}
+

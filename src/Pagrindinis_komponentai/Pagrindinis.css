@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Jura', sans-serif;
+}
+
+.darbu-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.darbu-options {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+}
+
+.darbu-link {
+  font-family: 'Sansation', sans-serif;
+  font-size: 36px;
+  color: #acacac;
+}
+
+.navbar {
+  z-index: 10; 
+  background-color: rgba(0, 0, 0, 0.0);
+  padding: 10px 10px;
+  display: none;
+  text-align: center;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+  display: none;
+}
+
+button.navLink {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: 'Jura', sans-serif;
+  color: #717171;
+  font-size: 32px;
+}
+
+.navbar .nav-link {
+  color: #acacac;
+  font-size: 32px;
+  margin-top: 50px;
+  display: none;
+  font-family: 'Jura', sans-serif;
+}
+
+.videoConteiner {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.video {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  display: block;
+}
+
+.linija {
+  width: 100%;
+  height: 1px;
+  background-color: #ACACAC;
+  margin-top: 600px;
+  position: absolute;
+}
+
+.apacia {
+  margin-top: 585px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.logoContainer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logo {
+  width: 114px;
+  height: 62px;
+}
+
+.tekstas {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #ACACAC;
+  font-family: 'Jura', sans-serif;
+}
+
+.skiltis{
+  padding-top: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #717171;
+  font-size: 32px;
+  font-family: 'Jura', sans-serif;
+}
+
+/*mikro animacija*/
+.borderXwidth a, .borderXwidth button {
+  position: relative;
+  display: inline-block; 
+  text-decoration: none; 
+}
+
+.borderXwidth a:before, .borderXwidth a:after,
+.borderXwidth button:before, .borderXwidth button:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 1px;
+    content: '';
+    background: #717171;
+    transition: all 0.5s;
+}
+
+.borderXwidth a:before, .borderXwidth button:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+.borderXwidth a:after, .borderXwidth button:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+.borderXwidth a:hover:before, .borderXwidth a:hover:after,
+.borderXwidth button:hover:before, .borderXwidth button:hover:after
+{
+    opacity: 1;
+    width: 100%;
+}
+
+
+/*Mobili versija*/
+@media (max-width: 768px) {
+
+  .borderXwidth a, .darbu-overlay, .darbu-link, .darbu-options, .navLink {
+    display: none;
+  }
+
+  .overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 5; 
+  }
+
+  .row{
+    padding-top:10px;
+  }
+
+  .logo {
+    width: 98px; 
+    height: 53px; 
+  }
+  
+  .navbar{
+    display: block;
+  }
+
+  .navbar .navbar-toggler{
+    display: block;
+  }
+
+  .navbar .nav-link{
+    display: block;
+  }
+}
