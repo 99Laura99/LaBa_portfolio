@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/LaBa_portfolio/static/css/main.07b7c771.css",
+    "main.js": "/LaBa_portfolio/static/js/main.59de1af3.js",
+    "static/js/453.9ff03132.chunk.js": "/LaBa_portfolio/static/js/453.9ff03132.chunk.js",
+    "static/media/AE_handwritten.mp4": "/LaBa_portfolio/static/media/AE_handwritten.74887f4d2dbe313893b4.mp4",
+    "static/media/pastatas.mp4": "/LaBa_portfolio/static/media/pastatas.4926eb125bc5afaffe0d.mp4",
+    "static/media/G7.jpg": "/LaBa_portfolio/static/media/G7.f15ed9e783d8b0d51c1e.jpg",
+    "static/media/G1.jpg": "/LaBa_portfolio/static/media/G1.10bda84dae74d0769cc7.jpg",
+    "static/media/G13.jpg": "/LaBa_portfolio/static/media/G13.3c93f63f2a732dff2010.jpg",
+    "static/media/G4.jpg": "/LaBa_portfolio/static/media/G4.98ec82ece1a885eb3f89.jpg",
+    "static/media/G12.jpg": "/LaBa_portfolio/static/media/G12.c39de45125a193daba64.jpg",
+    "static/media/G8.jpg": "/LaBa_portfolio/static/media/G8.083d8cea51abd8ddb80b.jpg",
+    "static/media/G2.jpg": "/LaBa_portfolio/static/media/G2.49401e9f97f8ce5eb926.jpg",
+    "static/media/mano.jpg": "/LaBa_portfolio/static/media/mano.2444b95ccec478cd05be.jpg",
+    "static/media/G10.jpg": "/LaBa_portfolio/static/media/G10.9395b055f0319f8eb409.jpg",
+    "static/media/xenoscapa.mp4": "/LaBa_portfolio/static/media/xenoscapa.e0fc826cce7356c41ae9.mp4",
+    "static/media/G6.jpg": "/LaBa_portfolio/static/media/G6.10ab5d305d0d2a6aa763.jpg",
+    "static/media/G5.jpg": "/LaBa_portfolio/static/media/G5.b0dbbb02abf533868b37.jpg",
+    "static/media/G11.jpg": "/LaBa_portfolio/static/media/G11.a33002f554ab74f2ed8f.jpg",
+    "static/media/G3.jpg": "/LaBa_portfolio/static/media/G3.16fd67f181213430f0ef.jpg",
+    "static/media/G9.jpg": "/LaBa_portfolio/static/media/G9.349c6f37a1681e5633b9.jpg",
+    "static/media/Sansation-Light.ttf": "/LaBa_portfolio/static/media/Sansation-Light.c0d37cac32ee23060372.ttf",
+    "index.html": "/LaBa_portfolio/index.html",
+    "main.07b7c771.css.map": "/LaBa_portfolio/static/css/main.07b7c771.css.map",
+    "main.59de1af3.js.map": "/LaBa_portfolio/static/js/main.59de1af3.js.map",
+    "453.9ff03132.chunk.js.map": "/LaBa_portfolio/static/js/453.9ff03132.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07b7c771.css",
+    "static/js/main.59de1af3.js"
+  ]
+}
